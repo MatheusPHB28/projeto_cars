@@ -1,3 +1,9 @@
+*{margin: 0;
+    padding: 0;
+
+}
+
+
 .cabeca{
 background-color: coral;
 
@@ -10,5 +16,28 @@ background-color: coral;
 
 }
 .imagem_fundo{
+
+}
+.final{
+    background-color: black;
+
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600;
+    position: relative;
+    margin-top: 20px;
+    margin: auto;
+}
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
 
 }
