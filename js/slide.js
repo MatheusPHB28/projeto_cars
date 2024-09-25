@@ -8,9 +8,13 @@ function initslidershow (slidershow) {
     var index = 0, time = 5000;
     slides{index}.classList.remove('active');
 
+    setInterval(()=>{
+        setInterval[index].classList.remove('active');
+
     index++;
 
-    if (index === slides.length) index = 0
-    slides
+    if (index === slides.length) index = 0;
+    slides[index].classList.add('active');
 
+    }, time);
 }
